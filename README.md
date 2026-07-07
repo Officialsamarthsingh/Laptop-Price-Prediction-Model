@@ -117,9 +117,9 @@ Laptop-Price-Prediction-Model/
 │   ├── laptop_price04_clean.csv
 │   └── laptop_master.csv               ← Final merged dataset (3,918 rows)
 │
-├── laptop_price_prediction.ipynb       ← Main notebook (EDA + Feature Engineering + Modeling)
-├── laptop_eda.ipynb                    ← Standalone EDA notebook
-├── laptop_price_presentation.pptx     ← Project presentation deck
+├── 01_EDA.ipynb ← Standalone EDA notebook (EDA)
+├── 02Feature_Engineering_&_Modelling.ipynb ← Main notebook  (Feature Engineering + Modeling)
+├── laptop_price_presentation.pptx ← Project presentation deck
 └── README.md
 ```
 ---
