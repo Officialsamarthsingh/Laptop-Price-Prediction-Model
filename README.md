@@ -1,10 +1,10 @@
-# 💻 Laptop Price Prediction Using Machine Learning
+# Laptop Price Prediction Using Machine Learning
 
 > Predicting laptop prices from real-world multi-source data using regression — Project 08
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Laptop prices vary dramatically across brands, specifications, and regions — yet buyers and businesses often lack a systematic way to estimate fair market value. This project builds an end-to-end machine learning pipeline that predicts laptop prices from hardware specifications alone.
 
@@ -12,7 +12,7 @@ The core focus of this project is **data engineering** — sourcing, cleaning, a
 
 ---
 
-## 📦 Dataset Details
+##  Dataset Details
 
 | Source | Rows | Currency |
 |---|---|---|
@@ -25,7 +25,7 @@ The core focus of this project is **data engineering** — sourcing, cleaning, a
 
 ---
 
-## 🔧 Data Engineering Pipeline
+##  Data Engineering Pipeline
 
 Each dataset was cleaned independently before merging — following the **ETL (Extract → Transform → Load)** approach:
 
@@ -44,7 +44,7 @@ Each dataset was cleaned independently before merging — following the **ETL (E
 
 ---
 
-## 📊 EDA — Key Findings
+##  EDA — Key Findings
 
 | # | Finding | Implication |
 |---|---|---|
@@ -57,7 +57,7 @@ Each dataset was cleaned independently before merging — following the **ETL (E
 
 ---
 
-## ⚙️ Feature Engineering
+##  Feature Engineering
 
 Transformed 10 raw columns into **44 model-ready features**:
 
@@ -75,14 +75,14 @@ Categorical encoding strategy:
 
 ---
 
-## 🤖 Model Results
+##  Model Results
 
 All models trained on scaled features (StandardScaler) with an 80/20 train/test split.
 
 | Model | R² | MAE (log) | RMSE (log) | MAE (INR) |
 |---|---|---|---|---|
 | Linear Regression | 0.8098 | 0.2160 | 0.2863 | ₹23,557 |
-| **Ridge Regression** ⭐ | **0.8102** | **0.2160** | **0.2860** | **₹23,560** |
+| **Ridge Regression** (Winner) | **0.8102** | **0.2160** | **0.2860** | **₹23,560** |
 | Lasso Regression | 0.7545 | 0.2479 | 0.3253 | ₹27,069 |
 
 **Best model: Ridge Regression (α=1.0)**
@@ -93,7 +93,7 @@ The average prediction error of **₹23,557** on a median laptop price of **₹7
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -105,7 +105,7 @@ The average prediction error of **₹23,557** on a median laptop price of **₹7
 | Notebook | Jupyter Notebook |
 
 ---
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 Laptop-Price-Prediction-Model/
@@ -124,7 +124,7 @@ Laptop-Price-Prediction-Model/
 ```
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # 1. Clone the repository
@@ -142,17 +142,17 @@ Run all cells top to bottom — the notebook covers EDA, feature engineering, an
 
 ---
 
-## 📈 Project Highlights
+##  Project Highlights
 
-- ✅ Built a full ETL pipeline per source before merging
-- ✅ Extracted structured features from 400+ unique processor and GPU strings
-- ✅ Applied target encoding for brand to avoid dimensionality explosion
-- ✅ R² = 0.81 on real-world merged data without display size, battery, or weight features
-- ✅ Model saved with Joblib for production use without retraining
+-  Built a full ETL pipeline per source before merging
+-  Extracted structured features from 400+ unique processor and GPU strings
+-  Applied target encoding for brand to avoid dimensionality explosion
+-  R² = 0.81 on real-world merged data without display size, battery, or weight features
+-  Model saved with Joblib for production use without retraining
 
 ---
 
-## 👤 Author
+##  Author
 
 **Samarth Singh**
 Aspiring Data Analyst · SRMU, Lucknow (B.Tech CSE, 2026)
