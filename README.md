@@ -82,7 +82,7 @@ All models trained on scaled features (StandardScaler) with an 80/20 train/test 
 | Model | R² | MAE (log) | RMSE (log) | MAE (INR) |
 |---|---|---|---|---|
 | Linear Regression | 0.8098 | 0.2160 | 0.2863 | ₹23,557 |
-| **Ridge Regression** (Winner) | **0.8102** | **0.2160** | **0.2860** | **₹23,560** |
+| **Ridge Regression** **(Winner)** | **0.8102** | **0.2160** | **0.2860** | **₹23,560** |
 | Lasso Regression | 0.7545 | 0.2479 | 0.3253 | ₹27,069 |
 
 **Best model: Ridge Regression (α=1.0)**
