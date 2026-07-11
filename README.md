@@ -158,7 +158,7 @@ Run all cells top to bottom — the notebook covers EDA, feature engineering, an
 Aspiring Data Analyst · SRMU, Lucknow (B.Tech CSE, 2026)
 
 [![GitHub](https://img.shields.io/badge/GitHub-OfficialSamarthsingh-181717?logo=github)](https://github.com/OfficialSamarthsingh)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-samarth--singh-0A66C2?logo=linkedin)](https://linkedin.com/in/samarth-singh-062371215)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-samarth--singh-0A66C2?logo=linkedin)](https://linkedin.com/in/samarth-singh-official)
 [![Portfolio](https://img.shields.io/badge/Portfolio-samarthsinghportfolio.netlify.app-4A90D9?logo=netlify)](https://samarthsinghportfolio.netlify.app)
 
 ---
